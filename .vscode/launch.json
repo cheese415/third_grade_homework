@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "url": "file:///D:/吱ㄉ大櫃子/大學作業/大三網頁/third_grade_homework/index_hw01.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

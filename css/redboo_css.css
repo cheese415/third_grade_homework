@@ -1,4 +1,3 @@
-
 /*
 Red Lantern redesign
 HFWD Chapter 1
@@ -11,6 +10,7 @@ a little easier
 */
 body {
 	margin: 0 auto;
+    
 	justify-content:center;
     align-items:center;
 	padding: 0;
@@ -64,23 +64,22 @@ a:visited {
 }
 
 #container h1 {
-	float: left;
-	margin: 10px 10px 0 0;
+	float: center;
 }
 
-#container ul nav {
-	float: auto;
-	margin: 10px 10px 0 0;
+#nav {
+	float: right;
+	margin: 50px 10px 0 0;
 	font-size: 1.4em;
 }
 
  
-#container ul nav li {
+#nav li {
 	display: inline;
-	margin: 0 0 0 10px;
+	margin: 0 0 0 20px;
 }
 
-#contaniner ul nav li a {
+#nav li a {
 	color: #fff;
 	text-decoration: none;
 	background: none;
@@ -101,7 +100,6 @@ the layout
 }
 
 #header img {
-	margin: 0 auto;
 	border: 10px solid #ccc;
 }
 
@@ -147,7 +145,7 @@ the layout
 	background: #eee;
 }
 
-#maincontant content {
+#sidebar h2 {
 	font-weight: bold;
 	border-bottom: 1px solid #ccc;
 	margin: 0 0 20px 0;

@@ -19,11 +19,11 @@ a:visited {
 body {
 	font: 12px Tahoma, Arial, Helvetica, sans-serif;
 	color: #666666;
-	background: #FFFFFF url(images2/header-home-bg.gif) repeat-x;
+	background: #FFFFFF url(../images2/header-home-bg.gif) repeat-x;
 }
 
 #bg {
-	background: url(images2/back.png) repeat-x top;
+	background: url(../images2/back.png) repeat-x top;
 }
 
 #main {
@@ -41,7 +41,7 @@ body {
 	padding-left: 40px;
 	text-align: left;
 	padding-top: 30px;
-	height: 65px;
+	height: 80px;
 	width: 948px;
 	margin: 0 auto;
 }
@@ -63,7 +63,7 @@ body {
 	z-index: 100;
 	width: 940px;
 	height: 38px;
-	background: url(images2/nav-bg.png) no-repeat 0 0;
+	background: url(../images2/nav-bg.png) no-repeat 0 0;
 	margin-top: 15px;
 	margin-bottom: 30px;
 }
@@ -79,7 +79,7 @@ body {
 	float: left;
 	display: inline;
 	height: 36px;
-	background: url(images2/nav-div.gif) no-repeat right 0;
+	background: url(../images2/nav-div.gif) no-repeat right 0;
 }
 
 #navigation ul li a {
@@ -97,13 +97,13 @@ body {
 }
 
 #navigation ul li a:hover, #navigation ul li a.hover {
-	background: url(images2/nav-hover.png) repeat-x 0 0;
+	background: url(../images2/nav-hover.png) repeat-x 0 0;
 	color: #fff;
 	text-shadow: 0px 1px 1px #333;
 }
 
 #navigation ul li.first a:hover {
-	background: url(images2/first-nav-hover.png) no-repeat 0 0 !important;
+	background: url(../images2/first-nav-hover.png) no-repeat 0 0 !important;
 }
 
 #content {
@@ -192,13 +192,7 @@ body {
 	padding: 20px 45px 10px 20px;
 }
 
-#column1, #column2 {
-	background: url(images2/st_center.jpg) no-repeat top right;
-}
 
-#column3 {
-	background: url(images2/st_right.jpg) no-repeat top right;
-}
 
 #column_box {
 	margin: 0px 22px 20px 16px;
@@ -254,7 +248,7 @@ body {
 }
 
 .link1 {
-	background: url(images2/bull-1.gif) no-repeat 0 6px;
+	background: url(../images2/bull-1.gif) no-repeat 0 6px;
 	padding: 0 0 0 7px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -342,7 +336,7 @@ body {
 
 .list1 li a {
 	padding-left: 19px;
-	background: url(images2/marker_1.gif) 0 2px no-repeat
+	background: url(../images2/marker_1.gif) 0 2px no-repeat
 }
 
 .list1 ul {
@@ -354,7 +348,7 @@ body {
 }
 
 #footer {
-	background: url(images2/header-home-bg.gif) repeat-x;
+	background: url(../images2/header-home-bg.gif) repeat-x;
 	margin: 0 auto;
 	font-size: 12px;
 	color: #ffffff;
@@ -379,7 +373,6 @@ body {
 	width: 841px;
 	margin: 0 auto;
 	padding-top: 25px;
-	background: url(images2/footer_top_border.png) no-repeat bottom left;
 	position: relative;
 }
 
@@ -411,7 +404,6 @@ body {
 }
 
 .footer_text {
-	background: url(images2/footer_top_border.png) no-repeat top left;
 	width: 226px;
 	padding: 10px 0px 10px 0px;
 }
@@ -426,28 +418,28 @@ body {
 }
 
 .link1 {
-	background: url(images2/link1.png) no-repeat 0px 2px;
+	background: url(../images2/link1.png) no-repeat 0px 2px;
 	padding-left: 30px;
 	min-height: 18px;
 	padding-bottom: 10px;
 }
 
 .link2 {
-	background: url(images2/link2.png) no-repeat 0px 2px;
+	background: url(../images2/link2.png) no-repeat 0px 2px;
 	padding-left: 30px;
 	min-height: 18px;
 	padding-bottom: 10px;
 }
 
 .link3 {
-	background: url(images2/link3.png) no-repeat 0px 2px;
+	background: url(../images2/link3.png) no-repeat 0px 2px;
 	padding-left: 30px;
 	min-height: 18px;
 	padding-bottom: 10px;
 }
 
 .link4 {
-	background: url(images2/link4.png) no-repeat 0px 2px;
+	background: url(../images2/link4.png) no-repeat 0px 2px;
 	padding-left: 30px;
 	min-height: 18px;
 	padding-bottom: 10px;
@@ -459,7 +451,7 @@ body {
 }
 
 .ls li {
-	background: url(images2/ls1.gif) no-repeat 0px 6px;
+	background: url(../images2/ls1.gif) no-repeat 0px 6px;
 	margin-bottom: 8px;
 	padding-left: 15px;
 }
@@ -520,12 +512,12 @@ footer_bot
 
 #slider #slider-prev {
 	left: 3px;
-	background: url(images2/slider1-prev.png) no-repeat 0 0;
+	background: url(../images2/slider1-prev.png) no-repeat 0 0;
 }
 
 #slider #slider-next {
 	right: 4px;
-	background: url(images2/slider1-next.png) no-repeat 0 0;
+	background: url(../images2/slider1-next.png) no-repeat 0 0;
 }
 
 .slider-pagination {
@@ -551,14 +543,14 @@ footer_bot
 	width: 22px;
 	height: 22px;
 	display: block;
-	background: url(images2/slider1-pagination.png) no-repeat 0 0;
+	background: url(../images2/slider1-pagination.png) no-repeat 0 0;
 	font-size: 0;
 	line-height: 0;
 	text-indent: -4000px;
 }
 
 .slider-pagination ul li a:hover, .slider-pagination ul li a.active {
-	background: url(images2/slider1-pagination-hover.png) no-repeat 0 0;
+	background: url(../images2/slider1-pagination-hover.png) no-repeat 0 0;
 }
 
 #slider.project-slider, #slider.project-slider .slider-content, #slider.project-slider .slider-content ul li, #slider.project-slider .jcarousel-clip {
@@ -574,11 +566,11 @@ footer_bot
 #slider.project-slider #slider-prev {
 	top: 125px;
 	left: -10px;
-	background: url(images2/project-slider-prev.png) no-repeat 0 0;
+	background: url(../images2/project-slider-prev.png) no-repeat 0 0;
 }
 
 #slider.project-slider #slider-next {
 	top: 125px;
 	right: -9px;
-	background: url(images2/project-slider-next.png) no-repeat 0 0;
+	background: url(../images2/project-slider-next.png) no-repeat 0 0;
 }
